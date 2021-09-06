@@ -8,6 +8,10 @@ class Name {
 
         System.out.print( "What is your name?" );
         String name = input.next();
-        System.out.println("Hello, " + name + ", nice to meet you!");
+
+        String greeting = "Hello, " + name + ", nice to meet you!";
+        System.out.println(greeting);
+
+        // System.out.println("Hello, " + name + ", nice to meet you!");
     }
 }
